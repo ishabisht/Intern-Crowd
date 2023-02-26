@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.student{
+    width: 289px;
+}
+
+.topright .std{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 6px 8px;
+    min-width: 12vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+}
+    .box:hover{
+        transform: scale(1.3);
+        background:#ff800a;
+        box-shadow:2px 2px 2px #000;
+        z-index: 2;
+
+    }
+
+
+    .web{
+        width: 80px;
+    }
+    .java{
+        width: 80px;
+    }
+    .anroid{
+        width: 80px;
+    }
+    .digital{
+        width: 80px;
+    }
+    .c{
+        width: 80px;
+    }
+    .cloud{
+        width: 80px;
+    }
+  
+
+.box h2{
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.box ul{
+    list-style-type:none;
+}
+
+.box ul li {
+   margin: 10px 2px;
+}
+
+.section3 h1{
+    font-size: 1.9rem;
+}
+
+.section3{
+    padding: 73px;
+}
+.box1{
+    padding: 8px 0;
+    margin: 6px 8px;
+    min-width: 12vw;
+    border: 2px solid rgb(6, 6, 6);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box1 h1{
+    font-size: 1.5rem;
+    padding: 8px 0;
+}
+
+.box1 ul{
+    list-style-type:none;
+}
+
+.box1 ul li {
+   margin: 8px 2px;
+}  
+
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
